@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/*DEFINIR LARGURA MÁXIMA - DESKTOP*/
-.frame{ 
-	max-width: 1366px; 
-  margin: 0 auto; 
-}
-
-
 /*REMOVER SCROLL BAR*/
 body::-webkit-scrollbar {
   display: none;
+
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 /*REMOVER AZUL DOS LINKS*/
@@ -17,7 +13,6 @@ a, a:hover, a:focus, a:active {
   text-decoration: none;
   color: white;
 }
-
 
 /*-----------------------------------------------------*/
 
@@ -34,10 +29,9 @@ nav{float:right;}
 
 .logo img{float:left;}
 
-ul li{  
+ul li{
   display: inline-block; padding:10px;
-  font-size:20px; font-family:'Montserrat', sans-serif;
-  color: white;
+  font-size:20px; font-family:Montserrat;
 }
 
 ul li:hover{
@@ -45,42 +39,18 @@ ul li:hover{
   
 }
 
-.social li{
-  padding-top: 0px;
-}
-
-
 /*-----------------------------------------------------*/
 
 
 body{
+  position: relative;
   font-family: 'Montserrat', sans-serif; 
-
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
 
   background-image: url('/img/bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
-  margin-left: 50px;
-  margin-top: 20px;
+  color:white;
 
 }
-
-
-/*-----------------------------------------------------*/
-
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
 
