@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/*DEFINIR LARGURA MÁXIMA - DESKTOP*/
+.frame{ 
+	max-width: 1366px; 
+  margin: 0 auto; 
+}
+
+
+/*REMOVER SCROLL BAR*/
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*REMOVER AZUL DOS LINKS*/
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+
+/*-----------------------------------------------------*/
+
+
+/*MENU*/
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{  
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:'Montserrat', sans-serif;
+  color: white;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+
+.social li{
+  padding-top: 0px;
+}
+
+
+/*-----------------------------------------------------*/
+
+
+body{
+  font-family: 'Montserrat', sans-serif; 
+
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
+  background-image: url('/img/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  margin-left: 50px;
+  margin-top: 20px;
+
+}
+
+
+/*-----------------------------------------------------*/
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+
