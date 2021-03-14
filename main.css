@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+/*MARGENS*/
+html{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
 /*REMOVER SCROLL BAR*/
 body::-webkit-scrollbar {
   display: none;
@@ -54,8 +61,3 @@ body{
 
 }
 
-html{
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 5px;
-}
