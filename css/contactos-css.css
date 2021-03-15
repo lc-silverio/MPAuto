@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/*MARGENS*/
+html{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*REMOVER SCROLL BAR*/
+body::-webkit-scrollbar {
+  display: none;
+
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/*REMOVER AZUL DOS LINKS*/
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+/*FONT SIZE*/
+h1{
+  font-size: 80px;
+}
+h2{
+  font-size:47px;}
+
+/*-----------------------------------------------------*/
+
+
+/*MENU*/
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:'Open Sans';
+}
+
+ul li a:hover{
+  color:orange;
+  cursor: pointer;
+}
+
+p a:hover{
+    color:orange;
+    cursor: pointer;
+}
+
+/*------------------------------------------  
+/*BODY*/
+
+body{
+  position: relative;
+  font-family: 'Open Sans', sans-serif; 
+
+  background-image: url('/img/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+
+}
+
+/*-----------------------------------------------------*/
+/*SECTIONS*/
+
+section{
+  margin-bottom: 15vh;
+  margin-top: 5vh;
+}
+
+/*Ajuste do Container das imagens/texto*/
+.column {
+  float: left;
+  width: 45%;
+  margin-right: 100px;
+  overflow: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: auto;
+}
+
+.map-text{
+  margin-top: -50px;
+}
+/*-----------------------------------------------------*/
+
+/*RODAPÉ*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footer h3, .social-footer {
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.social-footer{margin-bottom: 10px;}
+
+.rodape{margin-top: 200px;}
+
+/*-----------------------------------------------------*/
+
+/*Ajuste - responsivo*/
+@media screen and (max-width: 600px) {/*COLUNAS SECTION*/
+  .column {
+    width: 100%;
+  }
+
+  .map-text{/*ALINHAMENTO SECTION*/
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  /*FONT SIZE*/
+  h1{
+    font-size: xx-large;
+  }
+  h2{
+    font-size:x-large;}
+}

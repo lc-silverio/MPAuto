@@ -52,10 +52,9 @@ ul li{
   font-size:20px; font-family:'Open Sans';
 }
 
-ul li:hover{
+ul li a:hover{
   color:orange;
   cursor: pointer;
-  
 }
 
 /*------------------------------------------  
