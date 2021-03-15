@@ -98,6 +98,11 @@ section{
   margin-top: 5vh;
 }
 
+section p{
+  font-size: x-large;
+  margin-top: -20px;
+}
+
 /*Ajuste do Container das imagens/texto*/
 .column {
   float: left;

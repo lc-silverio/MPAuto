@@ -179,4 +179,45 @@ section{
     margin-bottom: 5vh;
     margin-top: 5vh;
   }
+
+  header{
+    width: fit-content;
+  }
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+  height: 350px;
+}
+
+div.gallery:hover {
+  border: 1px solid orange;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery div{
+  text-align: center;
+}
+
+div span{
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.preco div{
+  font-size: x-small;
 }
