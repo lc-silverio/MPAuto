@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 /*MARGENS*/
 html{
@@ -49,7 +49,7 @@ nav{float:right;}
 
 ul li{
   display: inline-block; padding:10px;
-  font-size:20px; font-family:Montserrat;
+  font-size:20px; font-family:'Open Sans';
 }
 
 ul li:hover{
@@ -57,12 +57,12 @@ ul li:hover{
   
 }
 
-/*-----------------------------------------------------*/
-
+/*------------------------------------------  
+/*BODY*/
 
 body{
   position: relative;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Open Sans', sans-serif; 
 
   background-image: url('/img/bg.jpg');
   background-repeat: no-repeat;
@@ -72,6 +72,8 @@ body{
 
 }
 
+/*-----------------------------------------------------*/
+/*HERO-BG*/
 .hero-bg img{
   display: block;
   margin-left: auto;
@@ -86,3 +88,41 @@ body{
 .hero-bg h1,h2{
   margin-bottom: 30px;
 }
+
+
+/*-----------------------------------------------------*/
+/*SECTIONS*/
+
+section{
+  margin-bottom: 15vh;
+  margin-top: 5vh;
+}
+
+/*Ajuste do Container das imagens/texto*/
+.column {
+  float: left;
+  width: 45%;
+  margin-right: 20px;
+  overflow: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: auto;
+}
+
+/*Ajuste largura das colunas - responsivo*/
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/*Alinhamento do texto em relação às imagens*/
+.multimarca-text, .mimo-text, .seguranca-text, .pneu-text{
+  padding-top: 140px;
+}
+
