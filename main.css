@@ -54,6 +54,7 @@ ul li{
 
 ul li:hover{
   color:orange;
+  cursor: pointer;
   
 }
 
@@ -102,7 +103,7 @@ section{
 .column {
   float: left;
   width: 45%;
-  margin-right: 20px;
+  margin-right: 100px;
   overflow: auto;
 }
 
@@ -113,16 +114,70 @@ section{
   overflow: auto;
 }
 
-/*Ajuste largura das colunas - responsivo*/
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-}
-
-
 /*Alinhamento do texto em relação às imagens*/
 .multimarca-text, .mimo-text, .seguranca-text, .pneu-text{
   padding-top: 140px;
 }
 
+
+/*Botões section*/
+.btn {
+  background-color: #89867f; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: orange;
+}
+
+/*RODAPÉ*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footer h3, .social-footer {
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.social-footer{margin-bottom: 10px;}
+
+.rodape{margin-top: 200px;}
+
+/*Ajuste - responsivo*/
+@media screen and (max-width: 600px) {/*COLUNAS SECTION*/
+  .column {
+    width: 100%;
+  }
+
+  .multimarca-text, .mimo-text, .seguranca-text, .pneu-text{/*ALINHAMENTO SECTION*/
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  /*FONT SIZE*/
+  h1{
+    font-size: xx-large;
+  }
+  h2{
+    font-size:x-large;}
+
+  section{ /*MARGENS SECTION*/
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+}
