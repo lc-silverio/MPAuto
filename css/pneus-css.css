@@ -91,53 +91,6 @@ body{
 
 
 /*-----------------------------------------------------*/
-/*SECTIONS*/
-
-section{
-  margin-bottom: 15vh;
-  margin-top: 5vh;
-}
-
-/*Ajuste do Container das imagens/texto*/
-.column {
-  float: left;
-  width: 45%;
-  margin-right: 100px;
-  overflow: auto;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  overflow: auto;
-}
-
-/*Alinhamento do texto em relação às imagens*/
-.multimarca-text, .mimo-text, .seguranca-text, .pneu-text{
-  padding-top: 140px;
-}
-
-
-/*Botões section*/
-.btn {
-  background-color: #89867f; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  cursor: pointer;
-}
-
-.btn:hover{
-  background-color: orange;
-}
-
 /*RODAPÉ*/
 .footer {
   position: fixed;
@@ -157,34 +110,8 @@ section{
 
 .rodape{margin-top: 200px;}
 
-/*Ajuste - responsivo*/
-@media screen and (max-width: 600px) {/*COLUNAS SECTION*/
-  .column {
-    width: 100%;
-  }
-
-  .multimarca-text, .mimo-text, .seguranca-text, .pneu-text{/*ALINHAMENTO SECTION*/
-    text-align: center;
-    padding-top: 0px;
-  }
-
-  /*FONT SIZE*/
-  h1{
-    font-size: xx-large;
-  }
-  h2{
-    font-size:x-large;}
-
-  section{ /*MARGENS SECTION*/
-    margin-bottom: 5vh;
-    margin-top: 5vh;
-  }
-
-  header{
-    width: fit-content;
-  }
-}
-
+/*-----------------------------------------------------*/
+/*GALERIA*/
 
 div.gallery {
   margin: 5px;
@@ -220,4 +147,92 @@ div span{
 
 .preco div{
   font-size: x-small;
+}
+
+/*-----------------------------------------------------*/
+/*Ajuste - responsivo*/
+@media screen and (max-width: 600px) {/*COLUNAS SECTION*/
+  .column {
+    width: 100%;
+  }
+
+  .multimarca-text, .mimo-text, .seguranca-text, .pneu-text{/*ALINHAMENTO SECTION*/
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  /*FONT SIZE*/
+  h1{
+    font-size: xx-large;
+  }
+  h2{
+    font-size:x-large;}
+
+  section{ /*MARGENS SECTION*/
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+
+  /*Largura cabeçalho*/
+   header{
+    width: fit-content;
+  }
+
+  header{
+    width: fit-content;
+  }
+/*GALERIA*/
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 150px;
+      height: 263px;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .gallery div{
+      font-size: x-small;
+      text-align: center;
+    }
+    
+    .preco div{
+      font-size: x-small;
+    }
+    div span{
+      font-size: medium;
+      font-weight: bold;
+      text-align: center;
+    }
+    body{
+      padding-bottom: 100px;
+    }
+
+    /*Rodapé*/
+    .footer h3{
+      text-align: center;
+      margin: auto;
+      padding: 0px;
+    }
+  
+    .footer{
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    padding:0px;
+    width: 600px;
+    margin-left: -100px;
+  }
+  
+    .social-footer{
+      margin: 0px;
+      padding-bottom: 0px;
+      margin-bottom: 10px;
+    }
 }

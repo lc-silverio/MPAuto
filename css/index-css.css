@@ -180,8 +180,36 @@ section p{
   h2{
     font-size:x-large;}
 
+  .column p{
+    font-size: medium;
+  }
+
   section{ /*MARGENS SECTION*/
     margin-bottom: 5vh;
     margin-top: 5vh;
   }
+  
+  /*Largura cabeçalho*/
+   header{
+    width: fit-content;
+  }
+
+    /*Rodapé*/
+    .footer h3{
+      text-align: center;
+      margin: auto;
+    }
+  
+    .footer{
+    text-align: center;
+    align-items: center;
+    }
+  
+    .social-footer{
+      margin: 0px;
+      margin-bottom: 10px;
+    }
+
+
+  
 }
