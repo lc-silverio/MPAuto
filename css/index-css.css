@@ -64,7 +64,7 @@ body{
   position: relative;
   font-family: 'Open Sans', sans-serif; 
 
-  background-image: url('/img/bg.jpg');
+  background-image: url('img/bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -143,6 +143,8 @@ section p{
   background-color: orange;
 }
 
+
+/*-----------------------------------------------------*/
 /*RODAPÉ*/
 .footer {
   position: fixed;
@@ -162,7 +164,8 @@ section p{
 
 .rodape{margin-top: 200px;}
 
-/*Ajuste - responsivo*/
+/*-----------------------------------------------------*/
+/*RESPONSIVO*/
 @media screen and (max-width: 600px) {/*COLUNAS SECTION*/
   .column {
     width: 100%;
@@ -210,6 +213,7 @@ section p{
       margin-bottom: 10px;
     }
     
+    /*Header - Ajuste do tamanho da letra na navbar*/
     header li{
       font-size: large;
     }
