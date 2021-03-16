@@ -125,6 +125,10 @@ div.gallery:hover {
   border: 1px solid orange;
 }
 
+.gallery{
+  overflow:auto;
+}
+
 div.gallery img {
   width: 100%;
   height: auto;
@@ -178,9 +182,7 @@ div span{
     width: fit-content;
   }
 
-  header{
-    width: fit-content;
-  }
+
 /*GALERIA*/
     div.gallery {
       margin: 5px;
@@ -188,6 +190,8 @@ div span{
       float: left;
       width: 150px;
       height: 263px;
+      margin-bottom: 150px;
+      margin-top: -50px;
     }
 
     div.gallery img {
@@ -212,27 +216,23 @@ div span{
       padding-bottom: 100px;
     }
 
-    /*Rodapé*/
-    .footer h3{
-      text-align: center;
-      margin: auto;
-      padding: 0px;
-    }
-  
-    .footer{
-    margin-top: 50px;
-    display: inline-block;
+  /*Rodapé*/
+  .footer h3{
     text-align: center;
-    position: relative;
-    align-items: center;
-    padding:0px;
-    width: 600px;
-    margin-left: -100px;
+    margin: auto;
   }
-  
-    .social-footer{
-      margin: 0px;
-      padding-bottom: 0px;
-      margin-bottom: 10px;
-    }
+
+  .footer{
+  text-align: center;
+  align-items: center;
+  }
+
+  .social-footer{
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  header li{
+    font-size: large;
+  }
 }

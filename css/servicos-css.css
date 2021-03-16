@@ -218,4 +218,7 @@ div span{
     margin-bottom: 10px;
   }
 
+  header li{
+    font-size: large;
+  }
 }
