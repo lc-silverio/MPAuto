@@ -215,5 +215,7 @@ section p{
     header li{
       font-size: large;
     }
-  
+  .logo{
+    margin-left: -20px;
+  }
 }
