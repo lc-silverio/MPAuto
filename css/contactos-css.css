@@ -137,13 +137,13 @@ section{
 
   .map {
     position: relative;
-    padding-bottom: 75%; /*This is the aspect ratio*/
-    height: 0;
+    padding-bottom: 75%;
+    height: 50;
     overflow: hidden;
 }
 .map iframe {
     position: absolute;
-    top: 0;
+    top: 400;
     left: 0;
     width: 100% !important;
     height: 100% !important;
