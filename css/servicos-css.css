@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/*MARGENS*/
+html{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 5px;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*REMOVER SCROLL BAR*/
+body::-webkit-scrollbar {
+  display: none;
+
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/*REMOVER AZUL DOS LINKS*/
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+/*FONT SIZE*/
+h1{
+  font-size: 80px;
+}
+h2{
+  font-size:47px;}
+
+/*-----------------------------------------------------*/
+
+
+/*MENU*/
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:'Open Sans';
+}
+
+ul li a:hover{
+  color:orange;
+  cursor: pointer;
+}
+
+/*------------------------------------------  
+/*BODY*/
+
+body{
+  position: relative;
+  font-family: 'Open Sans', sans-serif; 
+
+  background-image: url('/img/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+
+}
+
+/*-----------------------------------------------------*/
+/*HERO-BG*/
+.hero-bg img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.hero-bg{
+  margin-top: 50px;
+}
+
+.hero-bg h1,h2{
+  margin-bottom: 30px;
+}
+
+
+/*-----------------------------------------------------*/
+/*RODAPÉ*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  clear:both;
+}
+
+.footer h3, .social-footer {
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.social-footer{margin-bottom: 10px;}
+
+.rodape{margin-top: 200px;}
+
+/*-----------------------------------------------------*/
+/*GALERIA*/
+
+div.gallery {
+  margin-right: 50px;
+  float: left;
+  width: 960px;
+  height: 800px;
+  margin-bottom: 100px;
+}
+
+.gallery{
+  overflow:auto;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery div{
+  text-align: center;
+}
+
+div span{
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.preco div{
+  font-size: x-small;
+}
+.desc p{
+  margin-top: -2  0px;
+}
+.desc h2{
+  font-size: xx-large;
+}
+/*-----------------------------------------------------*/
+/*Ajuste - responsivo*/
+@media screen and (max-width: 600px) {/*COLUNAS SECTION*/
+  .column {
+    width: 100%;
+  }
+
+  .multimarca-text, .mimo-text, .seguranca-text, .pneu-text{/*ALINHAMENTO SECTION*/
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  /*FONT SIZE*/
+  h1{font-size: xx-large;}
+  h2{font-size:large;}
+
+  .desc p{
+    font-size: small;
+  }
+
+  section{ /*MARGENS SECTION*/
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+
+  /*Largura cabeçalho*/
+  header{
+    width: fit-content;
+  }
+
+  /*Galeria*/
+  div.gallery {
+    margin: 5px;
+    border:0px;
+    float: left;
+    width: 500px;
+    height: 600px;
+    margin-left:-20px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+  }
+   
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  /*Rodapé*/
+  .footer h3{
+    text-align: center;
+    margin: auto;
+  }
+
+  .footer{
+  text-align: center;
+  align-items: center;
+  }
+
+  .social-footer{
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+}
