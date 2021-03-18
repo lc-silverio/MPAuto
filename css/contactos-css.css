@@ -128,7 +128,7 @@ section{
   width: auto;
   height: auto;
   margin-top: 20px;
-  margin-left: 20%;
+  /*margin-left: 20%;*/
 }
 .formulario iframe{
   width: 100%;

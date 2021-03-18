@@ -117,11 +117,13 @@ section p{
 }
 
 /*Alinhamento do texto em relação às imagens*/
-.multimarca-text, .mimo-text{
-  padding-top: 30px;
+.multimarca-text, .mimo-text, .seguranca-text, .pneu-text, .marca-text, .repro-text{
+  padding-top: 100px;
 }
-.seguranca-text{
-  margin-top: -30px;
+
+.pneu-text img{
+  width: 60%;
+  margin-bottom: 50px;
 }
 
 
@@ -172,7 +174,7 @@ section p{
     width: 100%;
   }
 
-  .multimarca-text, .mimo-text, .seguranca-text, .pneu-text{/*ALINHAMENTO SECTION*/
+  .multimarca-text, .mimo-text, .seguranca-text, .pneu-text, .marca-text, .repro-text{/*ALINHAMENTO SECTION*/
     text-align: center;
     padding-top: 0px;
   }
