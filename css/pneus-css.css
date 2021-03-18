@@ -153,7 +153,7 @@ div span{
 
 /*-----------------------------------------------------*/
 /*Ajuste - responsivo*/
-@media screen and (max-width: 500px) {/*COLUNAS SECTION*/
+@media screen and (max-width: 600px) {/*COLUNAS SECTION*/
   .column {
     width: 100%;
   }
@@ -186,7 +186,7 @@ div span{
       margin: 5px;
       border: 1px solid #ccc;
       float: left;
-      width: 150px;
+      width: 120px;
       height: 263px;
       margin-bottom: 150px;
       margin-top: -50px;

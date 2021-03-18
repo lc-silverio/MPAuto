@@ -93,7 +93,7 @@ body{
 
 section{
   margin-bottom: 15vh;
-  margin-top: 5vh;
+  margin-top: 2vh;
 }
 
 section p{
@@ -104,7 +104,7 @@ section p{
 /*Ajuste do Container das imagens/texto*/
 .column {
   float: left;
-  width: 45%;
+  width: 40%;
   margin-right: 100px;
   overflow: auto;
 }
@@ -117,8 +117,11 @@ section p{
 }
 
 /*Alinhamento do texto em relação às imagens*/
-.multimarca-text, .mimo-text, .seguranca-text, .pneu-text{
-  padding-top: 140px;
+.multimarca-text, .mimo-text{
+  padding-top: 30px;
+}
+.seguranca-text{
+  margin-top: -30px;
 }
 
 
@@ -164,7 +167,7 @@ section p{
 
 /*-----------------------------------------------------*/
 /*RESPONSIVO*/
-@media screen and (max-width: 500px) {/*COLUNAS SECTION*/
+@media screen and (max-width: 600px) {/*COLUNAS SECTION*/
   .column {
     width: 100%;
   }

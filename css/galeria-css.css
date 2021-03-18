@@ -116,9 +116,9 @@ div.gallery {
   margin-right: 50px;
   border: 1px solid #ccc;
   float: left;
-  width: 900px;
-  height: 580px;
-  margin-bottom: 150px;
+  width: 700px;
+  height: 480px;
+  margin-bottom: 130px;
 }
 
 .gallery{
@@ -160,7 +160,7 @@ div span{
 }
 /*-----------------------------------------------------*/
 /*Ajuste - responsivo*/
-@media screen and (max-width: 500px) {/*COLUNAS SECTION*/
+@media screen and (max-width: 600px) {/*COLUNAS SECTION*/
   .column {
     width: 100%;
   }
@@ -194,7 +194,7 @@ div span{
     border: 0px;
     border:0px;
     float: left;
-    width: 500px;
+    width: 400px;
     height: 450px;
     margin-left:-20px;
     margin-bottom: 10px;
