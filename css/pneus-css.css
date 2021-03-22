@@ -73,21 +73,17 @@ body{
 
 /*-----------------------------------------------------*/
 /*HERO-BG*/
-.hero-bg img{
+.guia img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  margin-left: -45  px;
 }
 
-.hero-bg{
-  margin-top: 50px;
+.guia{
+  margin: 20px;
 }
-
-.hero-bg h1,h2{
-  margin-bottom: 30px;
-}
-
 
 /*-----------------------------------------------------*/
 /*RODAPÉ*/
@@ -120,6 +116,7 @@ div.gallery {
   height: 300px;
   margin-bottom: 100px;
   padding-bottom: 2.5rem;
+  overflow: visible;
 }
 
 div.gallery:hover {
@@ -159,6 +156,15 @@ div span{
 @media screen and (max-width: 1366px) {/*COLUNAS SECTION*/
   .column {
     width: 40%;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+    height: 263px;
+    margin-bottom: 150px;
   }
 }
 
