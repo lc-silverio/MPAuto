@@ -200,6 +200,7 @@ div span{
 
 /*GALERIA*/
     div.gallery {
+      position: relative;
       margin: 5px;
       border: 1px solid #ccc;
       float: left;
