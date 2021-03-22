@@ -177,6 +177,19 @@ section p{
 
 /*-----------------------------------------------------*/
 /*RESPONSIVO*/
+@media screen and (max-width: 1920px) {/*COLUNAS SECTION*/
+  .column {
+    width: 40%;
+  }
+  .multimarca-text, .mimo-text, .seguranca-text, .pneu-text, .marca-text, .repro-text{/*ALINHAMENTO SECTION*/
+    margin-top: -50px;
+  }
+  .seguranca-text, .repro-text{
+    margin-top: -100px;
+  }
+
+/*-----------------------------------------------------*/
+/*RESPONSIVO*/
 @media screen and (max-width: 1366px) {/*COLUNAS SECTION*/
   .column {
     width: 40%;
