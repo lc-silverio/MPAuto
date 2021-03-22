@@ -154,6 +154,24 @@ div span{
   font-size: xx-large;
 }
 /*-----------------------------------------------------*/
+/*RESPONSIVO*/
+@media screen and (max-width: 1366px) {/*COLUNAS SECTION*/
+  .column {
+    width: 40%;
+  }
+  /*Galeria*/
+  div.gallery {
+    margin: 5px;
+    border:0px;
+    float: left;
+    width: 500px;
+    height: 600px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+  }
+  }
+/*-----------------------------------------------------*/
 /*Ajuste - responsivo*/
 @media screen and (max-width: 600px) {/*COLUNAS SECTION*/
   .column {

@@ -152,6 +152,14 @@ div span{
 }
 
 /*-----------------------------------------------------*/
+/*RESPONSIVO*/
+@media screen and (max-width: 1366px) {/*COLUNAS SECTION*/
+  .column {
+    width: 40%;
+  }
+}
+
+/*-----------------------------------------------------*/
 /*Ajuste - responsivo*/
 @media screen and (max-width: 600px) {/*COLUNAS SECTION*/
   .column {

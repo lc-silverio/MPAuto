@@ -158,6 +158,23 @@ div span{
 .desc h2{
   font-size: xx-large;
 }
+/*RESPONSIVO*/
+@media screen and (max-width: 1366px) {/*COLUNAS SECTION*/
+  .column {
+    width: 40%;
+  }
+  div.gallery {
+    margin-right: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    height: 290px;
+    margin-bottom: 130px;
+  }
+
+  }
+/*----
+
 /*-----------------------------------------------------*/
 /*Ajuste - responsivo*/
 @media screen and (max-width: 600px) {/*COLUNAS SECTION*/

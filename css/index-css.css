@@ -169,6 +169,32 @@ section p{
 
 /*-----------------------------------------------------*/
 /*RESPONSIVO*/
+@media screen and (max-width: 1366px) {/*COLUNAS SECTION*/
+  .column {
+    width: 40%;
+  }
+  .multimarca-text, .mimo-text, .seguranca-text, .pneu-text, .marca-text, .repro-text{/*ALINHAMENTO SECTION*/
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 50px;
+  }
+    /*FONT SIZE*/
+    section h1{
+      font-size: x-large;
+    }
+    section h2{
+      font-size: large;}
+  
+    .column p{
+      font-size: medium;
+    }
+    .btn {
+      font-size: 14px;
+
+    }
+
+/*-----------------------------------------------------*/
+/*RESPONSIVO*/
 @media screen and (max-width: 600px) {/*COLUNAS SECTION*/
   .column {
     width: 100%;
@@ -220,4 +246,4 @@ section p{
     header li{
       font-size: large;
     }
-}
+}}
