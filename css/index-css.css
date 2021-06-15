@@ -268,3 +268,8 @@ section p{
       font-size: large;
     }
 }}}
+
+
+.promo{
+  display: none;
+}
